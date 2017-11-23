@@ -1,0 +1,28 @@
+{
+    "name": "cwplus/wordpress-nonce",
+    "description": "This class is created to using wordpress nonce functions as an object",
+    "keywords": ["wordpress nonce","wordpress","nonce","cwplus"],
+    "homepage": "https://github.com/cwplus/wordpress-nonce",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cwplus/wordpress-nonce"
+        }
+    ],
+    "config": {
+        "vendor-dir": "wp-content/plugins/wordpress-nonce"
+    },
+    "authors": [
+        {
+            "name": "cwplus",
+            "email": "khalid.elhakym@gmail.com",
+            "homepage": "http://www.creationwebplus.be/",
+            "role": "web developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}
